@@ -1,1 +1,6 @@
+c = input("Nhập chữ cái hoa: ")
 
+if c == 'A':
+    print('z')
+else:
+    print(chr(ord(c.lower()) - 1))

@@ -1,6 +1,6 @@
-c = input("Nhập một ký tự: ")
+c = input("Nhập chữ cái hoa: ")
 
-if c.isalpha():
-    print(c, "là kí tự alphabet")
+if c == 'A':
+    print('z')
 else:
-    print(c, "không phải là kí tự alphabet")
+    print(chr(ord(c.lower()) - 1))
