@@ -1,2 +1,5 @@
-n=int(input())
-print(2*n)
+a,b=map(int,input().split())
+dt=a*b
+ht=((a/2)**2)*3.14
+xq=dt-ht
+print("%.2f"%xq)
