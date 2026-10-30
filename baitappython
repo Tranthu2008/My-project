@@ -4,4 +4,4 @@ if c.isupper():
 elif c.islower():
     print(c.upper())
 else:
-     print("khong phai chu cai")
+    print(c, "không phải là kí tự alphabet")
