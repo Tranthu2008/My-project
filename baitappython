@@ -1,5 +1,7 @@
-a,b=map(int,input().split())
-dt=a*b
-ht=((a/2)**2)*3.14
-xq=dt-ht
-print("%.2f"%xq)
+c=input()
+if c.isupper():
+    print(c.lower())
+elif c.islower():
+    print(c.upper())
+else:
+     print("khong phai chu cai")
