@@ -1,7 +1,6 @@
-c=input()
-if c.isupper():
-    print(c.lower())
-elif c.islower():
-    print(c.upper())
+c = input("Nhập một ký tự: ")
+
+if c.isalpha():
+    print(c, "là kí tự alphabet")
 else:
     print(c, "không phải là kí tự alphabet")
