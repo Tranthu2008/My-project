@@ -1,8 +1,22 @@
-a,b,c=map(float,input().split())
-if (a+b>c) and (a+c>b) and (c+b>a):
-   p=(a+b+c)/2
-   from math import*
-   s=sqrt((p*(p-a)*(p-b)*(p-c)))
-   print("%1.f"%s)
+ten=input("Ten chu ho:")
+a=int(input("Chi so thang truoc:"))
+b=int(input("Chi so thang nay:"))
+hieu=b-a
+if 0<=hieu<=50:
+    c= hieu*1984
+    print('Tien phai tra la:',c+c*0.08)
+elif 51<=hieu<=100:
+    d= (c+(hieu-50)*2050)
+    print('Tien phai tra la:',d+d*0.08)
+elif 101<=hieu<=200:
+    e=(d+(hieu-100)*2380)
+    print('Tien phai tra la:',e+e*0.08)
+elif 201<=hieu<=300:
+    f=(e+(hieu-200)*2998)
+    print("Tien phai tra la:",f+f*0.08)
+elif 301<=hieu<=400:
+     g=(f+(hieu-300)*3350)
+     print("Tien phai tra la:",g+g*0.08)
 else:
-   print("khong phai tam giac")
+     h=(g+(hieu-400)*3460)
+     print("Tien phai tra la:",h+h*0.08)
