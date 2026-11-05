@@ -1,6 +1,5 @@
-c = input("Nhập chữ cái hoa: ")
-
-if c == 'A':
-    print('z')
+n=int(input())
+if n%2==0:
+    print("So chan")
 else:
-    print(chr(ord(c.lower()) - 1))
+    print("So le")
